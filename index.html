@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+       
+        .main{
+            background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            background-color: blue;
+        
+            
+        }
+        .c{
+            margin-top: 60px;
+            width: 400px;
+            height: 600px;
+            background-color: bisque;
+            text-align: center;
+            
+        }
+        .c1{
+            margin-top:20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+
+        }
+        .c2{
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-size: smaller;
+            font-style: italic;
+        }
+        .c6{
+            margin-top: 20px;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+        }
+        .c3,.c6{
+            width: 370px;
+            height: 2px;
+            background-color: rgb(52, 5, 5);
+            
+            margin-left:15px;
+            margin-right: 15px;
+        }
+        
+        .c4,.c5{
+            margin-top:8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+          
+
+        }
+        
+        .c4 img,.c5 img{
+            width: 30px;
+            height: 20px;
+            display:grid;
+            grid-template-columns: repeat(1,auto);
+            margin-left:185px;
+        }
+        .l1,.l2{
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2,auto);
+            margin-top: 10px;
+            
+            
+        }
+        .n2,.n4{
+            display:grid;
+            grid-template-columns: reeat(1,auto);
+            justify-content: flex-end;
+        }
+        .c6 li{
+            margin-top: 10px;
+            display: grid;align-items: center;
+            justify-content: center;
+        }
+        li{
+            margin-top: 10px;
+            display:grid;
+            justify-content:flex-start;
+            margin-left: 30px;
+            margin-inline-end: 20px;
+        
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="c">
+            <div class="c1">CAMPER CAFE</div>
+            <div class="c2">ESTD 2024</div>
+            <div class="c3"></div>
+            <div class="c4">Coffee
+                <img src="https://i.postimg.cc/kGFjyDc9/coffee-cup.png" alt="">
+            </div>
+            <div class="l1">
+                <nav id="n1">
+                <li>French Vanilla</li>
+                <li>Caramel Macchiato</li>
+                <li>Pumpkin Spice</li>
+                <li>Hazelnut</li>
+                <li>Mocha</li>
+                
+                </nav>
+                <nav class="n2">
+                    <li>3.00</li>
+                    <li>3.75</li>
+                    <li>3.50</li>
+                    <li>4.00</li>
+                    <li>4.50</li>
+                </nav>
+                
+            </div>
+            <div class="c5">Deserts
+                <img src="https://i.postimg.cc/V6X4Y52M/ice-cream.png" alt="">
+            </div>
+            
+            <div class="l2">
+                <div class="n3">
+                    <li>Donut</li>
+                    <li>Cherry Pie</li>
+                    <li>Cheesecake</li>
+                    <li>Cinnamon Roll</li>
+                </div>
+                <div class="n4">
+                    <li>1.50</li>
+                    <li>2.75</li>
+                    <li>3.00</li>
+                    <li>2.50</li>
+                </div>
+            </div>
+            <div class="c6">
+                <li><a href="#">Visit our website</a></li>
+                <li>123 Free Code camp drive</li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
